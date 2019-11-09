@@ -1,0 +1,16 @@
+<header>
+    <h1 class="border-bottom">Projects</h1>
+</header>
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4" *ngFor="let project of projects">
+        <div class="card">
+            <img src="../assets/images/defaultProject.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a *ngFor="let tag of tags" href="#" class="btn btn-primary tag">#skillz</a>
+            </div>
+        </div>
+    </div>
+</div>

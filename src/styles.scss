@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "reset.css"; 
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./app/app.component.scss";
+
+body {
+    background: #12181b;
+    color: white;
+}
+
+.card {
+    background: #2a2e35;
+    margin-bottom: 20px;
+}
